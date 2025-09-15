@@ -1,9 +1,9 @@
-*Generic Counter in Java
+# Generic Counter in Java
 
 This project demonstrates how to create a generic method in Java that counts the number of elements in a collection satisfying a given property (e.g., odd numbers, prime numbers, palindromes).
 
-*Project Structure
-src/
+# Project Structure
+``` src/
       └── example/
            ├── util/
            │    ├── GenericCounter.java   # Generic counter utility
@@ -14,8 +14,9 @@ src/
            │
            └── app/
                 └── Main.java             # Entry point of the program
+ ```
  
-#Features
+# Features
 
 Generic method countByProperty that works with any collection type.
 
@@ -25,24 +26,24 @@ isPrime(Integer n) → checks if a number is prime.
 
 isPalindrome(String str) → checks if a string is a palindrome.
 
-*How to Compile & Run
+# How to Compile & Run
 
 Open a terminal in the src folder.
 
 Compile the project:
-javac example/**/**/*.java
+``` javac example/**/**/*.java```
 
 Example usage with integers and strings.
 
-#Run the program:
-java example.app.Main
+# Run the program:
+```java example.app.Main```
 
-#Example Output
+# Example Output
 Odd numbers count: 5
 Prime numbers count: 4
 Palindrome words count: 3
 
-#Concepts Covered
+# Concepts Covered
 
 Generics in Java
 
